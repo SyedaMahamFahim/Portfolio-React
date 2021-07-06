@@ -1,0 +1,122 @@
+.professional-skills {
+    color: white;
+    flex-basis: 40%;
+}
+.soft-skills {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  flex-basis: 40%;
+  width: 80%;
+  margin: auto;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+/* Line Skills */
+.skills li{
+    margin:20px 0;
+}
+.bar {
+    display: block;
+    height: 3px;
+    overflow: hidden;
+    box-shadow: 0px -1px 4px crimson;
+    margin: 10px 0px;
+}
+.bar span{
+    height: 3px;
+    float: left;
+    background-color:crimson ;
+}
+.html5-css3-bootstrap{
+    width: 98%;
+    animation: html5-css3-bootstrap 4s;
+}
+.javascript{
+    width: 90%;
+    animation: javascript 4s;
+}
+.react{
+    width: 80%;
+    animation: react 4s;
+}
+.python{
+    width: 85%;
+    animation: python 4s;
+}
+.django{
+    width: 80%;
+    animation: django 4s;
+}
+.wordpress{
+    width: 97%;
+    animation: wordpress 4s;
+}
+@keyframes html5-css3-bootstrap {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 55%;
+    }
+}
+@keyframes javascript {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+@keyframes react {
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 80%;
+    }
+}
+@keyframes python{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 85%;
+    }
+}
+@keyframes django{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 80%;
+    }
+}
+@keyframes wordpress{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 97%;
+    }
+}
+
+/* Circle Progress Bar */
+.circle-progress-bar {
+  width: 150px;
+  margin: 10px auto;
+  text-align: center;
+}
+.circle-progress-bar-h1{
+  color:white;
+}
+@media only screen and (min-width: 220px) and (max-width: 475px){
+  .soft-skills {
+    display: grid;
+    grid-template-columns: 100%;
+    flex-basis: 40%;
+    width: 80%;
+    margin: auto;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+}

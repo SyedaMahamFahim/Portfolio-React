@@ -1,0 +1,2 @@
+gray color: #23263A
+drak gray:#17181F

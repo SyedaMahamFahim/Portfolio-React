@@ -1,0 +1,39 @@
+const ProfessionalSkillsData=[
+ {
+     id:1,
+     title:"HTML5,CSS3,BOOTSTRAP",
+     width:98,
+     cName:"html5-css3-bootstrap"
+ },
+ {
+    id:2,
+    title:"Javascript",
+    width:90,
+    cName:"javascript"
+},
+{
+    id:3,
+    title:"React.js",
+    width:80,
+    cName:"react"
+},
+{
+    id:4,
+    title:"Python",
+    width:85,
+    cName:"python"
+},
+{
+    id:5,
+    title:"Django",
+    width:80,
+    cName:"django"
+},
+{
+    id:6,
+    title:"WordPress",
+    width:97,
+    cName:"wordpress"
+},
+]
+export default ProfessionalSkillsData

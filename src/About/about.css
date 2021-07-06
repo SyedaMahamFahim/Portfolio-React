@@ -1,0 +1,86 @@
+
+
+.about-img {
+    flex-basis: 35%;
+    margin-right: 50px;
+   
+    /* align-self: center; */
+   
+}
+.about-img img {
+    width: 420px;
+    height: 500px;
+   
+    
+}
+.about-info{
+    flex-basis: 75%;
+}
+.about-info h1{
+    color: crimson;
+    font-size: 30px;
+    font-weight: 400;
+}
+.about-info p{
+    color: white;
+}
+.personal-info {
+    display: flex;
+    margin: 5px 0px 5px;
+}
+.personal-info-left {
+    margin: 05px 5px 0px 0px;
+}
+.personal-info-right {
+    margin: 05px 0px 0px 05px;
+}
+li.personal-info-li {
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px 5px 1px;
+}
+@media only screen and (min-width: 190px) and (max-width: 289px){
+    .about-img img {
+        width: 230px;
+        height: 300px;
+    }
+    .about-info h1 {
+        /* color: crimson; */
+        font-size: 22px;
+        font-weight: 400;
+    }
+    .personal-info {
+        display: flex;
+        margin: 5px 0px 5px;
+        flex-direction: column;
+    }
+  }
+@media only screen and (min-width: 290px) and (max-width: 767px){
+    
+    .about-img{
+        margin: auto;
+    }
+    .about-img img {
+        width: 250px;
+        height: 300px;
+        margin: auto;
+    }
+    .personal-info {
+        flex-wrap: wrap;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+    .main-content {
+        display: flex;
+        width: 95%;
+        margin: 10px auto;
+    }
+    .about-img img {
+        width: 250px;
+        height: 400px;
+        margin: auto;
+    }
+}
+
+
+
